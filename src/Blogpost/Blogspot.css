@@ -1,0 +1,73 @@
+.post{
+    width: 600px;
+    border: 1px solid #ccc;
+    margin:10px 0 0 10px;
+}
+.content{  
+    margin-top: 10px;
+    padding: 10px 10px;
+}
+
+.img-thumbnail{
+    float: left;
+    padding-top: 20px;
+    border: none;
+}
+.btn-remove{
+    width: 120px;
+    height: 40px;
+    background: red;
+    color: #fff;
+    border-radius: 4px;
+    margin: 0 0 20px 100px;
+    outline: none;
+}
+.btn-remove:hover{
+   cursor: pointer;
+   background-color: rgb(204, 0, 0);
+}
+.btn-update{
+    width: 120px;
+    height: 40px;
+    border-radius: 4px;
+    background: blue;
+    color: #fff;
+}
+.btn-update:hover{
+    cursor: pointer;
+    background-color: rgb(37, 1, 165);
+ }
+
+ label{
+    display: inherit;
+    margin: 10px 0 0 40px;
+}
+.title{
+    width: 400px;
+    padding-left: 10px;
+    margin-left: 40px;
+}
+.desc{
+    width: 400px;
+    margin-left: 40px;
+}
+
+.form-add{
+    width: 500px;
+    height: 450px;
+    margin-bottom:100px;
+    border:1px solid #ccc;
+    margin: 0 0 0 20px;
+}
+.btn-submit{
+    display: block;
+    width: 120px;
+    height: 40px;
+    background: rgb(1, 189, 1);
+    color: #fff;
+    margin: auto;
+}
+.btn-submit:hover{
+  cursor: pointer;
+  background: rgb(0, 136, 0);
+}
