@@ -130,7 +130,8 @@ import axios from 'axios';
      render(){
          return(
              <Fragment>
-             <p>Blog Post</p>
+             <p>Blog </p>
+             <hr/>
              <div className="form-add">
                  <label htmlFor="">Title</label>
                  <input type="text" value={this.state.formBlogPost.title} className="title" name="title" placeholder="Add title" onChange={this.handleChange}/>
